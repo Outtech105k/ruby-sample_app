@@ -1,15 +1,16 @@
 source 'https://rubygems.org'
 
-gem 'rails',        '5.1.6'
-gem 'puma',         '3.9.1'
-gem 'sass-rails',   '5.0.6'
-gem 'uglifier',     '3.2.0'
-gem 'coffee-rails', '4.2.2'
-gem 'jquery-rails', '4.3.1'
-gem 'turbolinks',   '5.0.1'
-gem 'jbuilder',     '2.7.0'
+gem 'rails',          '5.1.6'
+gem 'bootstrap-sass', '3.3.7'
+gem 'puma',           '3.9.1'
+gem 'sass-rails',     '5.0.6'
+gem 'uglifier',       '3.2.0'
+gem 'coffee-rails',   '4.2.2'
+gem 'jquery-rails',   '4.3.1'
+gem 'turbolinks',     '5.0.1'
+gem 'jbuilder',       '2.7.0'
 # ffi 1.16 以降は Ruby 2.5 / Bundler 1.17 で依存解決に失敗するため固定
-gem 'ffi',          '< 1.16'
+gem 'ffi',            '< 1.16'
 
 group :development, :test do
   gem 'sqlite3', '1.3.13'
